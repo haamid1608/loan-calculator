@@ -12,6 +12,7 @@ const loaderRef=document.querySelector(".loader");
 
 
 calculateBtn.addEventListener("click",calculateLoan);
+inputAmountRef.addEventListener("keydown",updateValue);
 
 
 
@@ -38,4 +39,8 @@ function calculateLoan(){
 function disableLoader(){
     loaderRef.style.display="none";
     loanDetailsWrapper.style.display="block";
+}
+
+function updateValue(){
+    loanDetailsWrapper.style.display="none";
 }

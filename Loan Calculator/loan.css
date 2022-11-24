@@ -79,9 +79,11 @@ body{
 
 .loader{
     display: none;
-    width: 100%;
+    width: 80%;
     height: 150px;
     margin-top: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
 }
 
 .results-head{
