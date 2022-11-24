@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+}
+
+.loan-wrapper{
+    border: 2px solid black;
+    width: 500px;
+    /* height: 500px; */
+    margin: 20px auto;
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+}
+
+.calc-name{
+    /* border: 1px solid green; */
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    color: gold;
+}
+
+.amt-wrapper{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.input-label{
+    border: 1px solid gold;
+    width: 6%;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px 0px 0px 5px;
+    color: gold;
+}
+
+.amt-input{
+    border: 1px solid gold;
+    width: 97%;
+    padding: 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: silver;
+}
+
+.interest-amt-wrapper{
+    border: 1px solid blue;
+}
+
+.years{
+    border: 1px solid gold;
+    margin-bottom: 13px;
+    padding: 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: silver;
+}
+
+.calculate{
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 0px;
+    background-color: gold;
+    color: grey;
+}
+
+.loan-details-wrapper{
+    /* border: 1px solid blueviolet; */
+    margin-top: 15px;
+    display: none;
+}
+
+.loader{
+    display: none;
+    width: 80%;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.results-head{
+    text-align: center;
+    margin-bottom: 15px;
+    color: gold;
+
+}
+
+.results-wrapper{
+    border: 1px solid gold;
+    margin:15px 0px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    /* background-color: silver; */
+    /* height: 30px; */
+
+}
+
+.results-label{
+    /* border: 1px solid gold; */
+    padding-left: 5px;
+    /* height: 30px; */
+    width: 10%;
+    /* border-radius: 5px 0px 0px 5px; */
+    background-color: darkolivegreen;
+    color: gold;
+
+}
+
+.results-amount{
+    /* border: 1px solid greenyellow; */
+    /* padding: 15px 5px; */
+    margin-left: 15px;
+    text-align: center;
+    color: gold;
+    /* height: 100%;
+    width: 90%; */
+
+}
+
+.footer{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+}
